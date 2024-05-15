@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Barbershop Brotherhood</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link rel="icon" sizes="192x192" href="C:\Users\asp10\OneDrive\Desktop\Proyecto FINAL\img\B-01.webp" type="image/x-icon"/>
+        <link rel="shortcut icon" href="C:\Users\asp10\OneDrive\Desktop\Proyecto FINAL\img\B-01.webp" type="image/x-icon"/>
+        <link rel="apple-touch-icon" href="C:\Users\asp10\OneDrive\Desktop\Proyecto FINAL\img\B-01.webp" type="image/x-icon"/>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    </head>
+
+
+
+
+
+
+
+    <body>
+        
+        <div class="navbar" id="navbar">
+            <div class="navbar-logo">
+              <img src="B-01 (2).jpg" alt="Logo">
+            </div>
+            <div class="navbar-links">
+              <a href="#Sobrenosotros">Sobre Nosotros</a>
+              <a href="#servicios">Servicios</a>
+              <a href="#Contactenos">Contactenos</a>
+              <a href="#Informaciones">Informaciones</a>
+              <a href="#Galeria">Galeria</a>
+              <a href="#Productos">Productos</a>
+            </div>
+          </div>
+
+          <script>
+        window.addEventListener('scroll', function() {
+        const navbar = document.getElementById('navbar');
+        if (window.scrollY > 0) {
+         navbar.classList.add('navbar-scroll');
+        } else {
+             navbar.classList.remove('navbar-scroll');
+        }
+            });
+         </script>
+
+
+
+
+
+
+
+        <header>
+        <div class="header"> 
+
+            <h1 class="animate__animated animate__fadeInUp h1">Barberias Brotherhood</h1>
+            <p color="White" size="27px" class="animate__animated animate__fadeInOut">"Always Bold, Never Bald"</p>
+          </div>
+        </header>
+        
+
+
+
+
+        <main>
+          <section class="about">
+              <div class="about-content">
+                  <h2>Sobre nosotros</h2>
+                  <p class="si">Somos una barbería dedicada a proporcionar los mejores servicios de corte de cabello y cuidado de barba. Con más de 10 años de experiencia, hemos establecido una reputación de excelencia y satisfacción del cliente.</p>
+              </div>
+              <div class="about-image"></div>
+          </section>
+      </main>
+
+
+    
+
+        <section id="servicios">
+          <div class="container_servicios">
+              <h2>Nuestros Servicios</h2>
+              <div class="service">
+                  <img src="tp-low-fade-haircut-1.webp" alt="Corte de pelo">
+                  <h3>Corte de Pelo</h3>
+                  <p>Ofrecemos una variedad de estilos de corte de pelo modernos y clásicos para hombres y niños.</p>
+              </div>
+              <div class="service">
+                  <img src="trim.jpg" alt="Recorte de barba">
+                  <h3>Recorte de Barba</h3>
+                  <p>Nuestros barberos expertos pueden darle forma y estilo a su barba según sus preferencias.</p>
+              </div>
+              <div class="service">
+                  <img src="Benefits-of-a-Hot-Towel-Shave.jpg" alt="Afeitado con toalla caliente">
+                  <h3>Afeitado con Toalla Caliente</h3>
+                  <p>Disfrute de un afeitado clásico y relajante con toallas calientes y productos de alta calidad.</p>
+              </div>
+          </div>
+      </section>
+      
+
+
+        
+
+<section id="Contactenos">
+    <div class="contenedor">
+        <form action="#" method="post">
+          <h2>Contactenos</h2>
+          <div class="input-group">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="input-group">
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="input-group">
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">Enviar</button>
+        </form>
+      </div>
+</section>
+
+
+
+
+
+
+<section id="Informaciones">
+
+    <div class="row">
+        <div class="column">
+          <h2>Di Hola</h2>
+          <h4>Telefono:809-555-1368
+           Correo:rd.brotherhood@gmail.com
+          </h4>
+        </div>
+        
+        <div class="column">
+          <h2>Nuestra Direccion</h2>
+          <h4>Calle Paseo de los Locutores Nro 1, Galerias del paseo</h4>
+        </div>
+        
+        <div class="column">
+          <h2>Horarios</h2>
+          <h4>Lunes - Sábado: 08:00 am - 08:00 pm</h4>
+        </div>
+      </div>
+</section>
+
+
+
+
+
+
+<section id="Galeria"> 
+
+
+    <div class="titulo">GALERIA</div>
+
+<div class="gallery">
+<div class="image">
+    <img src="imagen1.jpg" alt="Imagen 1">
+</div>
+<div class="image">
+    <img src="imagen2.jpg" alt="Imagen 2">
+</div>
+<div class="image">
+    <img src="imagen3.jpg" alt="Imagen 3">
+</div>
+<div class="image">
+    <img src="imagen4.jpg" alt="Imagen 4">
+</div>
+<div class="image">
+    <img src="imagen5.jpg" alt="Imagen 5">
+</div>
+<!-- Agrega más imágenes según sea necesario -->
+</div>
+</section>
+
+
+
+<section class="productos">
+  <h2>Nuestros Productos</h2>
+  <div class="producto">
+      <img src="producto1.webp" alt="Producto1">
+      <h3>BLACK STYLING GEL</h3>
+      <p class="precio">$995.95</p>
+  </div>
+
+  <div class="producto">
+    <img src="producto2.webp" alt="Producto2">
+    <h3>CLASSIC STYLING GEL</h3>
+    <p class="precio">$995.00</p>
+</div>
+
+<div class="producto">
+  <img src="Producto3.jpg" alt="Producto3">
+  <h3>WHITE MOLDING CREAM</h3>
+  <p class="precio">$795.95</p>
+</div>
+
+<div class="producto">
+  <img src="Producto4.jpg" alt="Producto4">
+  <h3>BLACK HAIR POMADE</h3>
+  <p class="precio">$895.95</p>
+</div>
+
+<div class="producto">
+  <img src="producto5.jpg" alt=" Producto5">
+  <h3>POWER HAIR POMADE</h3>
+  <p class="precio">$795.95</p>
+</div>
+
+<div class="producto">
+  <img src="Producto6.jpg" alt="Producto6">
+  <h3>SHAVING GEL REFRESHING</h3>
+  <p class="precio">$895.95</p>
+</div>
+
+<div class="producto">
+  <img src="Producto7.webp" alt="Producto7">
+  <h3>SHAVING SOAP</h3>
+  <p class="precio">$995.00</p>
+</div>
+
+<div class="producto">
+  <img src="Producto8.jpg" alt="Producto8">
+  <h3>BEARD DYE BROWN</h3>
+  <p class="precio">$600.95</p>
+</div>
+  
+</section>
+
+
+
+<div id="map"></div>
+    <script>
+        function initMap() {
+            var myLatLng = {lat: -25.363, lng: 131.044}; // Coordenadas del centro del mapa
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 4, // Nivel de zoom inicial
+                center: myLatLng // Centro del mapa
+            });
+            var marker = new google.maps.Marker({
+                position: myLatLng,
+                map: map,
+                title: '¡Hola Mundo!'
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=TU_API_KEY&callback=initMap" async defer></script>
+
+    <div class="footer">
+        <h2>©2024 por Barberias Brotherhood. Creada por Juan Santos y Freddy Espinal.</h2>
+      </div>
+
+    </body>
+</html>
